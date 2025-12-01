@@ -1,0 +1,28 @@
+h1{
+font-size: 30px;
+text-align: center;
+color: orangered;
+}
+
+p{
+font-size: 20px;
+text-align: left;
+font-family: Helvetica, sans-serif; color : lightyellow;
+}
+
+body {
+background-color: #007471;
+}
+
+/* Conteneur des images */
+.images-container {
+  display: flex;              /* Active le mode flex */
+  justify-content: space-between; /* Une à gauche, l'autre à droite */
+  align-items: center;        /* Aligne verticalement */
+}
+
+/* Style des images */
+.images-container img {
+  width: 45%;   /* Même largeur pour les deux */
+  height: auto; /* Conserve les proportions */
+}
